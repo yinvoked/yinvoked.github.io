@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <title>Yin's Temple</title>
+    <!-- Custom CSS -->
+    <link href="lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-sidebartype="mini-sidebar" class="mini-sidebar">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon p-l-10">
+                            <img src="img/logo-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <span class="logo-text">
+                             <img src="img/logo-text.png" alt="homepage" class="light-logo" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Social links and friends -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/yin.png" alt="contact" class="rounded-circle" width="31"></a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                                <a class="dropdown-item" href="https://discord.gg/ZAKgPmw"><i class="ti-server m-r-5 m-l-5"></i> Discord Server</a>
+                                <a class="dropdown-item" href="https://twitter.com/Yinvoked"><i class="ti-twitter m-r-5 m-l-5"></i> Twitter</a>
+                                <a class="dropdown-item" href="https://www.twitch.tv/yinvoked"><i class="ti-video-camera m-r-5 m-l-5"></i> Twitch</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/yinvoked/ak-manifest"><i class="ti-github m-r-5 m-l-5"></i> GitHub Repo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://www.wrappixel.com/"><i class="ti-user m-r-5 m-1-5"></i> Theme by WrapPixel</a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Social links and friends -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="p-t-30">
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="japanese.html" aria-expanded="false"><i class="mdi mdi-note-text"></i><span class="hide-menu">Japanese Resources</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false"><i class="mdi mdi-newspaper"></i><span class="hide-menu">Arknights Manifest (WiP)</span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+             <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-12 d-flex no-block align-items-center">
+                        <h4 class="page-title">Japanese Resources</h4>
+                        <div class="ml-auto text-right">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Japanese Resources</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-lg-8">
+                        <div class="alert alert-warning" role="alert">
+                            <h4 class="alert-heading">Still in-progress!</h4>
+                            <p>
+                                Pardon my dust! I'm still working on getting this page fully fleshed out. Before I created this page
+                                I was using an Excel spreadsheet to track my full list of resources, which I would then capture as a
+                                screenshot. This solution was not ideal, as I continuously update the list as I continue to learn.
+                            </p>
+                            <hr />
+                            <p>
+                                In the interim, I have uploaded an image of my resource list, until I can complete the content for
+                                this page. Click the image below to view the resource.
+                            </p>
+                            <p class="text-center">
+                                <a href="img/japanese_resource_list.png"><img src="img/japanese_resource_list.png" height="150" /></a><br />
+                                <i>Click me!</i>
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Addendum</h4>
+                                <p>
+                                    After having studied Japanese for little over half a year now, I have been asked a handful
+                                    of people for resources that I have been using for my self-study. When this question was asked
+                                    of me, I came to to the realization that I did not have a compiled list. This list is surely not
+                                    a complete list of all useful resources out there, but it does contain the one's that I have found
+                                    useful in some regard.
+                                    <br />
+                                    <br />
+                                    Have a useful resource that is missing from this list? Please reach out and share your experience!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Kana</h4>
+                                <p>
+                                    Note about Kana.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td class="text-center" style="white-space:nowrap">
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.tofugu.com/japanese/learn-hiragana/" target="_blank">
+                                                Tofugu Hiragana Guide
+                                            </a>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge badge-pill badge-success">Free!</span>
+                                        </td>
+                                        <td>Uses mneumonics to teach Hiragana in a matter of hours.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" style="white-space:nowrap">
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.tofugu.com/japanese/learn-katakana/" target="_blank">
+                                                Tofugu Katakana Guide
+                                            </a>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge badge-pill badge-success">Free!</span>
+                                        </td>
+                                        <td>The same method of mneumonics but for Katakana.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" style="white-space:nowrap">
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.tofugu.com/japanese/learn-katakana/" target="_blank">
+                                                Hiragana Drag and Drop Drill
+                                            </a>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge badge-pill badge-success">Free!</span>
+                                        </td>
+                                        <td>(Flash) Good hands-on practice as you learn each row of the table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" style="white-space:nowrap">
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.tofugu.com/japanese/learn-katakana/" target="_blank">
+                                                Hiragana Flashcards
+                                            </a>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge badge-pill badge-success">Free!</span>
+                                        </td>
+                                        <td>Another self-paced drill, recommend enabling all fonts in 'extras' for more reading practice.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Kanji</h4>
+                                <p>
+                                    Note about Kanji.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Vocabulary</h4>
+                                <p>
+                                    Note about Vocabulary.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Grammar</h4>
+                                <p>
+                                    Note about Grammar.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Reading</h4>
+                                <p>
+                                    Note about Reading.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Listening</h4>
+                                <p>
+                                    Note about Listening.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <!-- column -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Ratings</h4>
+                            </div>
+                            <div>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td style="white-space:nowrap">
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                            </td>
+                                            <td>Vital</td>
+                                            <td>Represent the core resources of my daily routine or that provide tremendous value to learners. These are the
+                                                items that I feel are fundamental to progressing your knowledge.td>
+                                        </tr>
+                                        <tr>
+                                            <td style="white-space:nowrap">
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star-outline"></i>
+                                            </td>
+                                            <td>Effective</td>
+                                            <td>Denote content I occassionally use (or have previously used) to supplement my personal studies. These items might be
+                                                essential for others, but may not necessarily be a part of what I use.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="white-space:nowrap">
+                                                <i class="mdi mdi-star"></i>
+                                                <i class="mdi mdi-star-outline"></i>
+                                                <i class="mdi mdi-star-outline"></i>
+                                            </td>
+                                            <td>Useful</td>
+                                            <td>Identify items that I infrequently access or don't use at all, but acknowledge their value as alternative for others to benefit
+                                                from using. Everyone learns differently, so having extra options is always a plus!</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="white-space:nowrap">
+                                                <i class="mdi mdi-star-outline"></i>
+                                                <i class="mdi mdi-star-outline"></i>
+                                                <i class="mdi mdi-star-outline"></i>
+                                            </td>
+                                            <td>Unevaluated</td>
+                                            <td>Contains links and resources that I have not personally evaluated or used, but want to provide to give other users a chance
+                                                to explore for themselves.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">The JLPT</h4>
+                                <p>
+                                    Note about the JLPT.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Jisho & References</h4>
+                                <p>
+                                    Note about Jisho & References.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Culture & Inspiration</h4>
+                                <p>
+                                    Note about Culture & Inspiration.
+                                </p>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>Rating</th>
+                                            <th>Name</th>
+                                            <th>Tags</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- TODO -->
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                Designed and developed by Yinvoked.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="lib/popper.js/dist/umd/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="lib/extra/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="js/pages/dashboards/dashboard1.js"></script>
+    <script src="lib/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="lib/magnific-popup/meg.init.js"></script>
+</body>
+</html>
