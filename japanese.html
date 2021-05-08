@@ -45,7 +45,7 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index">
                         <!-- Logo icon -->
                         <b class="logo-icon p-l-10">
                             <img src="img/logo-icon.png" alt="homepage" class="light-logo" />
@@ -138,7 +138,7 @@
                         <div class="ml-auto text-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="index">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Japanese Resources</li>
                                 </ol>
                             </nav>
@@ -156,7 +156,7 @@
                 <div class="row">
                     <!-- column -->
                     <div class="col-lg-8">
-                        <div class="alert alert-warning" role="alert">
+                        <div class="alert alert-warning shadow" role="alert">
                             <h4 class="alert-heading">Still in-progress!</h4>
                             <p>
                                 Pardon my dust! I'm still working on getting this page fully fleshed out. Before I created this page
@@ -173,7 +173,7 @@
                                 <i>Click me!</i>
                             </p>
                         </div>
-                        <div class="card">
+                        <div class="card shadow">
                             <div class="card-body">
                                 <h4 class="card-title">Addendum</h4>
                                 <p>
@@ -572,37 +572,41 @@
                     // Cost
                     case 'free':
                         subElement.setAttribute('class', 'badge badge-pill badge-success');
-                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Free";
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>   Free";
                         break;
                     case 'freemium':
                         subElement.setAttribute('class', 'badge badge-pill badge-warning');
-                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Freemium";
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>   Freemium";
                         break;
                     case 'premium':
                         subElement.setAttribute('class', 'badge badge-pill badge-danger');
-                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Premium";
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>   Premium";
                         break;
                     // Experience
-                    case 'beginner':
+                    case 'novice':
                         subElement.setAttribute('class', 'badge badge-pill badge-success');
-                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Novice";
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>   Novice";
                         break;
                     case 'intermediate':
                         subElement.setAttribute('class', 'badge badge-pill badge-warning');
-                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Intermediate";
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>   Intermediate";
                         break;
                     case 'advanced':
                         subElement.setAttribute('class', 'badge badge-pill badge-danger');
-                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Advanced";
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>   Advanced";
                         break;
                     case 'universal':
                         subElement.setAttribute('class', 'badge badge-pill badge-primary');
-                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Universal";
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>   Universal";
                         break;
                     // Special tags
                     case 'daily':
                         subElement.setAttribute('class', 'badge badge-pill badge-info');
-                        subElement.innerHTML = "<i class='fas fa-clock'></i>  Daily Routine";
+                        subElement.innerHTML = "<i class='fas fa-clock'></i>   Daily Routine";
+                        break;
+                    case 'new':
+                        subElement.setAttribute('class', 'badge badge-pill badge-secondary');
+                        subElement.innerHTML = "<i class='mdi-alert-octagram'></i>   New!";
                         break;
                     }
                     resourceCell.appendChild(subElement);
