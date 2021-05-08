@@ -558,10 +558,45 @@
                 resourceCell = document.createElement('td');
                 resourceCell.setAttribute('class', 'text-center');
                 // TODO for each tag in tag.length
-                for(let j = 0; j < 3; j++) {
-                    subElement = document.createElement('span');
-                    subElement.setAttribute('class', 'badge badge-pill badge-success');
-                    subElement.textContent = "Free!";
+                for(let j = 0; j < jsonObj[i].tags.length; j++) {
+                    subElement = document.createElement('div');
+                    switch (jsonObj[i].tags[j]) {
+                    // Cost
+                    case 'free':
+                        subElement.setAttribute('class', 'badge badge-pill badge-success');
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Free";
+                        break;
+                    case 'freemium':
+                        subElement.setAttribute('class', 'badge badge-pill badge-warning');
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Freemium";
+                        break;
+                    case 'premium':
+                        subElement.setAttribute('class', 'badge badge-pill badge-danger');
+                        subElement.innerHTML = "<i class='fas fa-dollar-sign'></i>  Premium";
+                        break;
+                    // Experience
+                    case 'beginner':
+                        subElement.setAttribute('class', 'badge badge-pill badge-success');
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Novice";
+                        break;
+                    case 'intermediate':
+                        subElement.setAttribute('class', 'badge badge-pill badge-warning');
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Intermediate";
+                        break;
+                    case 'advanced':
+                        subElement.setAttribute('class', 'badge badge-pill badge-danger');
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Advanced";
+                        break;
+                    case 'universal':
+                        subElement.setAttribute('class', 'badge badge-pill badge-primary');
+                        subElement.innerHTML = "<i class='fas fa-chart-line'></i>  Universal";
+                        break;
+                    // Special tags
+                    case 'daily':
+                        subElement.setAttribute('class', 'badge badge-pill badge-info');
+                        subElement.innerHTML = "<i class='fas fa-clock'></i>  Daily Routine";
+                        break;
+                    }
                     resourceCell.appendChild(subElement);
                     subElement = document.createElement('br');
                     resourceCell.appendChild(subElement);

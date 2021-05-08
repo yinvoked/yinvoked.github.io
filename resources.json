@@ -5,36 +5,28 @@
 			"url": "https://www.tofugu.com/japanese/learn-hiragana/",
 			"rating": 3,
 			"description": "Uses mneumonics to teach Hiragana in a matter of hours.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free", "beginner" ]
 		},
 		{
 			"name": "Tofugu Katakana Guide",
 			"url": "https://www.tofugu.com/japanese/learn-katakana/",
 			"rating": 3,
 			"description": "The same method of mneumonics but for Katakana.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free", "beginner" ]
 		},
 		{
 			"name": "Hiragana Drag and Drop",
 			"url": "https://www.csus.edu/indiv/s/sheaa/projects/genki/hiragana-timer.html",
 			"rating": 2,
 			"description": "Good hands-on practice as you learn each row of the table (uses Flash).",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free", "beginner" ]
 		},
 		{
 			"name": "Hiragana Flashcards",
 			"url": "https://realkana.com/blog/how_is_hiragana_used/",
 			"rating": 2,
 			"description": "Another self-paced drill, recommend enabling all fonts in 'extras' for more reading practice.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free", "beginner" ]
 		}
 	],
 	"kanji" : [
@@ -43,45 +35,35 @@
 			"url": "https://www.wanikani.com/",
 			"rating": 3,
 			"description": "Teaches 2,000+ Kanji via SRS. First 3-levels are free, also reinforces with 6,000 vocab.",
-			"tags": [
-				"Free Trial", "Daily Routine"
-			]
+			"tags": [ "freemium", "daily" ]
 		},
 		{
 			"name": "KaniWani",
 			"url": "https://www.kaniwani.com/",
 			"rating": 3,
 			"description": "Pairs with WaniKani, enforces recall of Kanji/Vocab rather than solely recognition.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Kanji Alive Radical Guide",
 			"url": "https://kanjialive.com/214-traditional-kanji-radicals/",
 			"rating": 2,
 			"description": "Teaches the Kanji radicals (building blocks) and how their placement applies to craft Kanji.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "KameSame",
 			"url": "https://www.kamesame.com/app",
 			"rating": 1,
 			"description": "An alternate recall app, but also targets specific lists like N5 and covers much more than WaniKani.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Remembering the Kanji (Book)",
 			"url": "https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921",
 			"rating": 1,
 			"description": "Teaches the meaning and writing of Kanji only (but well). Does not teach the readings (how to pronounce).",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		}
 	],
 	"vocab" : [
@@ -90,18 +72,14 @@
 			"url": "https://apps.ankiweb.net/",
 			"rating": 3,
 			"description": "A commonly used SRS tool where you can create or import a flashcard deck for personal studying.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Glenn Sun Vocab Test",
 			"url": "https://glenn-sun.github.io/japanese-vocab-test/",
 			"rating": 2,
 			"description": "A general vocab for general knowledge level with a targeted exam for evaluation.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	],
 	"grammar" : [
@@ -110,72 +88,56 @@
 			"url": "https://bunpro.jp/",
 			"rating": 3,
 			"description": "Teaches vocabulary via SRS with paths that follow other guides like Tae Kim and Genki.",
-			"tags": [
-				"Free Trial", "Daily Routine"
-			]
+			"tags": [ "freemium", "daily" ]
 		},
 		{
 			"name": "Don's Conjugation Drill",
 			"url": "https://wkdonc.github.io/conjugation/drill.html",
 			"rating": 3,
 			"description": "Practice your ability to conjugate any type of verb or adjective in modern Japanese.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Organic Japanese",
 			"url": "http://learnjapaneseonline.info/",
 			"rating": 3,
 			"description": "Teaches logical roots and structure of Japanese in a way that ignored conventional English textbook teaching.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Tae Kim's Guide to Japanese",
 			"url": "http://www.guidetojapanese.org/learn/grammar",
 			"rating": 2,
 			"description": "Incredible guide, but hard without a foundation in vocab. Recommend only the Grammar guide.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Genki I (2nd ed.) (Textbook)",
 			"url": "https://www.amazon.com/Genki-Integrated-Elementary-Japanese-Workbook/dp/478901441X/",
 			"rating": 2,
 			"description": "The go-to textbook for schools, comes with audio files. No answer key (see next resource).",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		},
 		{
 			"name": "Genki Study Resources",
 			"url": "https://sethclydesdale.github.io/genki-study-resources/",
 			"rating": 2,
 			"description": "This site hosts all of the Genkin textbook/workbook exercises for you to do in your browser.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Tofugu Verbs Article",
 			"url": "https://www.tofugu.com/japanese/transitive-intransitive-verbs/",
 			"rating": 2,
 			"description": "Deep dive into the use of transitive versus intransitive verbs.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Human Japanese",
 			"url": "https://apps.apple.com/us/app/human-japanese/id304090210",
 			"rating": 1,
 			"description": "A well-rounded book application that teaches kana, vocab, and grammar from square one.",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		}
 	],
 	"reading" : [
@@ -184,72 +146,56 @@
 			"url": "https://tadoku.org/japanese/en/graded-readers-en/",
 			"rating": 2,
 			"description": "Stories in native Japanese at various levels. Graded readers are the a great self-evaluation tool.",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		},
 		{
 			"name": "NHK News Easy",
 			"url": "https://www3.nhk.or.jp/news/easy/",
 			"rating": 2,
 			"description": "Japanese news website written at the elementary/middle school level (N4-N3).",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "NHK News",
 			"url": "https://www3.nhk.or.jp/news/",
 			"rating": 2,
 			"description": "The standard NHK news website not targeted to any specific level (N3-N2).",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Watanoc",
 			"url": "http://watanoc.com/tag/n5",
 			"rating": 2,
 			"description": "More news articles written specifically to a JLPT reading level. Has content for N5 learners.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Crystal Hunters Manga",
 			"url": "https://www.pixiv.net/en/artworks/80075613",
 			"rating": 2,
 			"description": "Free manga written expressly for N5 learners, requires knowledge of only 87 words.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Duendecat",
 			"url": "http://duendecat.com/",
 			"rating": 2,
 			"description": "Contextual-based example sentences, based on WaniKani's leveling system; still useful for all.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Satori Reader",
 			"url": "https://www.satorireader.com/",
 			"rating": 2,
 			"description": "Curated content for various reading levels. A bit more advanced, but adjustable for growing learners.",
-			"tags": [
-				"Free Trial", "Daily Routine"
-			]
+			"tags": [ "freemium", "daily" ]
 		},
 		{
 			"name": "White Rabbit Graded Readers",
 			"url": "https://www.whiterabbitpress.com/japanesegradedreaders/",
 			"rating": 1,
 			"description": "Native content and stories and specifically targeted reading levels. Readers are amazing, but expensive.",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		}
 	],
 	"listening" : [
@@ -258,27 +204,21 @@
 			"url": "https://www.japanesepod101.com/",
 			"rating": 3,
 			"description": "Lots of sample dialog podcasts that teach a small set of grammar and vocab in twenty minute bursts.",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		},
 		{
 			"name": "Animelon",
 			"url": "https://animelon.com/",
 			"rating": 2,
 			"description": "Watch anime with Japanese subtitles and tools to assist as you watch. Polar Bear Café recommended.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "ANJ Sub",
 			"url": "https://anjsub.com/",
 			"rating": 2,
 			"description": "An alternative website to Animelon that provides Japanese subtitles that you can follow along.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	],
 	"media" : [
@@ -287,54 +227,42 @@
 			"url": "https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ",
 			"rating": 3,
 			"description": "Cure Dolly's official YouTube channel that teaches Japanese in a structured, logical way. Highly recommend.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Game Grammar YouTube",
 			"url": "https://www.youtube.com/channel/UC8UqIZlupjIQ3vxcAOEoNug",
 			"rating": 3,
 			"description": "Let's Plays to teach Japanese, has Japanese 101 lessons that offer unique takes on grammar teaching.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Game Grammer Twitch",
 			"url": "https://www.twitch.tv/gamegrammar",
 			"rating": 2,
 			"description": "Ask questions during the let's plays and grammar lessons live, VODs are uploaded right to YouTube.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Japanese Ammo",
 			"url": "https://www.youtube.com/c/JapaneseAmmowithMisa",
 			"rating": 2,
 			"description": "Useful for conversational Japanese and teaches a lot of dialect and nuance.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "JapaNews",
 			"url": "https://www.youtube.com/watch?v=coYw-eVU0Ks",
 			"rating": 2,
 			"description": "Japanese news livestream that loops every fifteen minutes.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "JapanesePod101",
 			"url": "https://www.youtube.com/user/japanesepod101",
 			"rating": 2,
 			"description": "The podcast site also hosts a live YouTube channel and various video resources for free.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 
 	],
@@ -344,36 +272,28 @@
 			"url": "https://jisho.hlorenzi.com/",
 			"rating": 3,
 			"description": "Dictionary with some useful tagging and analytics.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Nihon Shock Cheat Sheets",
 			"url": "http://cheatsheets.nihonshock.com/sheets/basic-japanese/",
 			"rating": 3,
 			"description": "Basic Japanese cheat sheets that you can print. I keep a printed copy on my desk.",
-			"tags": [
-				"Free Trial", "Daily Routine"
-			]
+			"tags": [ "freemium", "daily" ]
 		},
 		{
 			"name": "Jisho.org",
 			"url": "https://jisho.org/",
 			"rating": 2,
 			"description": "Free online dictionary.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Google Translate",
 			"url": "https://translate.google.com/",
 			"rating": 2,
 			"description": "Inaccurate, useful for simple translations. Struggles with English to Japanese, use a dictionary.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	],
 	"culture" : [
@@ -382,27 +302,21 @@
 			"url": "https://www.youtube.com/channel/UCbHWBh2s3nRzquz8rAoJk8Q",
 			"rating": 2,
 			"description": "Vlog from a non-native speaker who lives and works in Japan.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Dogen",
 			"url": "https://www.youtube.com/user/Dogen",
 			"rating": 1,
 			"description": "Phonetic lessons and Japanese humor.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "All Japanese All The Time",
 			"url": "http://www.alljapaneseallthetime.com/blog/",
 			"rating": 1,
 			"description": "Fun blog for a bit of inspiration and tips on immersing yourself in the language. Don't read too much into it.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	],
 	"jlpt" : [
@@ -411,54 +325,42 @@
 			"url": "https://www.jlpt.jp/e/",
 			"rating": 3,
 			"description": "Offical website for the JLPT. Purchase official study materials there as well.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "AATJ",
 			"url": "https://www.aatj.org/jlpt-us",
 			"rating": 3,
 			"description": "American Association of Teachers of Japanese hosts the JLPT in the United States. Sign up for the test here.",
-			"tags": [
-				"Paid!"
-			]
+			"tags": [ "premium" ]
 		},
 		{
 			"name": "Learning Kanji",
 			"url": "https://www.youtube.com/channel/UCaICD6XJma5-H4NQIiKpX5g/playlists",
 			"rating": 2,
 			"description": "A native Japanese speaker reviews official JLPT tests and explains the questions and answers.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Nihongo Den",
 			"url": "http://nihongoden.blogspot.com/p/jlpt-n5-practice-tests.html",
 			"rating": 2,
 			"description": "Sample JLPT practice tests.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "JLPTStudyNet",
 			"url": "https://jlptstudy.net/N5/",
 			"rating": 2,
 			"description": "Additional sample JLPT questions",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Tanos.co.uk",
 			"url": "http://www.tanos.co.uk/jlpt/jlpt5/",
 			"rating": 2,
 			"description": "Additional JLPT study resources.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	],
 	"unevaluated" : [
@@ -467,90 +369,70 @@
 			"url": "https://koohi.cafe/",
 			"rating": 0,
 			"description": "Teaches vocabulary present in various media using SRS.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Ryou",
 			"url": "https://www.ryouflashcards.com/",
 			"rating": 0,
 			"description": "Flashcard SRS with a nice user interface. Can target specific JLPT sections.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "HelloTalk",
 			"url": "https://www.hellotalk.com/?lang=en",
 			"rating": 0,
 			"description": "Talk to native Japanese speakers. You correct their English, they correct your Japanese.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Team Japanese",
 			"url": "https://teamjapanese.com/free-websites-japanese-reading-practice-every-level/",
 			"rating": 0,
 			"description": "Provides a list of websites that (supposedly) provide free reading material for learners.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Maggie Sensei",
 			"url": "http://maggiesensei.com/category/jlpt-n5/",
 			"rating": 0,
 			"description": "Grammatical resource that provides a number of quality examples nail down grammatical concepts.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Aedict Online",
 			"url": "https://aedict-online.eu/",
 			"rating": 0,
 			"description": "Online Jisho with stroke order and translation capabilities.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Flo*Flo",
 			"url": "https://floflo.moe/",
 			"rating": 0,
 			"description": "Search for manga and books and pull down vocabulary lists sorted by frequency in the books that you read.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "JLPT Sensei",
 			"url": "https://jlptsensei.com/",
 			"rating": 0,
 			"description": "Sample test.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "LingoDeer",
 			"url": "https://www.lingodeer.com/home",
 			"rating": 0,
 			"description": "An alternative to DuoLingo.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		},
 		{
 			"name": "Steven Kraft's Projects",
 			"url": "https://steven-kraft.com/projects/japanese/",
 			"rating": 0,
 			"description": "Another conjugation drill website, with drills for counters and Kanji. Also has a few cheat sheets.",
-			"tags": [
-				"Free!"
-			]
+			"tags": [ "free" ]
 		}
 	]
 }
