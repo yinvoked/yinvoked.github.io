@@ -369,70 +369,70 @@
 			"url": "https://koohi.cafe/",
 			"rating": 0,
 			"description": "Teaches vocabulary present in various media using SRS.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Ryou",
 			"url": "https://www.ryouflashcards.com/",
 			"rating": 0,
 			"description": "Flashcard SRS with a nice user interface. Can target specific JLPT sections.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "HelloTalk",
 			"url": "https://www.hellotalk.com/?lang=en",
 			"rating": 0,
 			"description": "Talk to native Japanese speakers. You correct their English, they correct your Japanese.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Team Japanese",
 			"url": "https://teamjapanese.com/free-websites-japanese-reading-practice-every-level/",
 			"rating": 0,
 			"description": "Provides a list of websites that (supposedly) provide free reading material for learners.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Maggie Sensei",
 			"url": "http://maggiesensei.com/category/jlpt-n5/",
 			"rating": 0,
 			"description": "Grammatical resource that provides a number of quality examples nail down grammatical concepts.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Aedict Online",
 			"url": "https://aedict-online.eu/",
 			"rating": 0,
 			"description": "Online Jisho with stroke order and translation capabilities.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Flo*Flo",
 			"url": "https://floflo.moe/",
 			"rating": 0,
 			"description": "Search for manga and books and pull down vocabulary lists sorted by frequency in the books that you read.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "JLPT Sensei",
 			"url": "https://jlptsensei.com/",
 			"rating": 0,
 			"description": "Sample test.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "LingoDeer",
 			"url": "https://www.lingodeer.com/home",
 			"rating": 0,
 			"description": "An alternative to DuoLingo.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		},
 		{
 			"name": "Steven Kraft's Projects",
 			"url": "https://steven-kraft.com/projects/japanese/",
 			"rating": 0,
 			"description": "Another conjugation drill website, with drills for counters and Kanji. Also has a few cheat sheets.",
-			"tags": [ "free" ]
+			"tags": [  ]
 		}
 	]
 }
