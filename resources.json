@@ -4,28 +4,28 @@
 			"name": "Tofugu Hiragana Guide",
 			"url": "https://www.tofugu.com/japanese/learn-hiragana/",
 			"rating": 3,
-			"description": "Uses mneumonics to teach Hiragana in a matter of hours.",
+			"description": "Uses mneumonics to teach Hiragana in a matter of hours. Hiragana is used to represent all syllables pronounced in Japanese, learning it is essential.",
 			"tags": [ "free", "novice" ]
 		},
 		{
 			"name": "Tofugu Katakana Guide",
 			"url": "https://www.tofugu.com/japanese/learn-katakana/",
 			"rating": 3,
-			"description": "The same method of mneumonics but for Katakana.",
+			"description": "The same method of using mneumonics but for Katakana. This script is usually used for loan words and animals/plants, or for emphasis and signs.",
 			"tags": [ "free", "novice" ]
 		},
 		{
-			"name": "Hiragana Drag and Drop",
+			"name": "Kana Drag and Drop",
 			"url": "https://drlingua.com/japanese/games/kana-bento/",
 			"rating": 2,
-			"description": "Good hands-on practice as you learn each row of the table (uses Flash).",
+			"description": "Quick, hands-on practice for testing Kana knowledge as you learn them. I recommend running this drill for each Kana you know, for each set learn. This will help you in identifying them.",
 			"tags": [ "free", "novice", "new" ]
 		},
 		{
 			"name": "Hiragana Flashcards",
 			"url": "https://realkana.com/blog/how_is_hiragana_used/",
 			"rating": 2,
-			"description": "Another self-paced drill, recommend enabling all fonts in 'extras' for more reading practice.",
+			"description": "Another self-paced drill, recommend enabling all fonts in the 'extras' menu for more reading practice in identifying unique shapes.",
 			"tags": [ "free", "novice" ]
 		}
 	],
@@ -34,35 +34,35 @@
 			"name": "WaniKani",
 			"url": "https://www.wanikani.com/",
 			"rating": 3,
-			"description": "Teaches 2,000+ Kanji via SRS. First 3-levels are free, also reinforces with 6,000 vocab.",
+			"description": "Teaches 2,000+ Kanji and 6,000+ vocab via structured SRS, ordered by Kanji complexity. Somewhat negates the need to set up your own Anki flashcards. The first three levels are free, Christmas time typically has a sale on permanent premium, which I strongly recommend.",
 			"tags": [ "freemium", "universal", "daily" ]
 		},
 		{
 			"name": "KaniWani",
 			"url": "https://www.kaniwani.com/",
 			"rating": 3,
-			"description": "Pairs with WaniKani, enforces recall of Kanji/Vocab rather than solely recognition.",
+			"description": "Free buddy tool that pairs with WaniKani, enforces recall of Kanji/Vocab. WaniKani prompts「易しい」and asks for a translation and Hiragana, KaniWani prompts with 'easy' and asks you to input the Kana.",
 			"tags": [ "free", "universal" ]
 		},
 		{
 			"name": "Kanji Alive Radical Guide",
 			"url": "https://kanjialive.com/214-traditional-kanji-radicals/",
-			"rating": 2,
-			"description": "Teaches the Kanji radicals (building blocks) and how their placement applies to craft Kanji.",
+			"rating": 1,
+			"description": "Teaches the Kanji radicals (building blocks) and how their placement can affect the meaning and pronounciation of a Kanji. For additional supplementary materials, look up 'sound-sisters' by Cure Dolly.",
 			"tags": [ "free", "univeral" ]
 		},
 		{
 			"name": "KameSame",
 			"url": "https://www.kamesame.com/app",
 			"rating": 1,
-			"description": "An alternate recall app, but also targets specific lists like N5 and covers much more than WaniKani.",
+			"description": "An alternate recall app (similar to KaniWani), but also allowed you to select targetted word lists like JLPT testing levels or other daily topics for study in a similar manner.",
 			"tags": [ "free", "universal" ]
 		},
 		{
 			"name": "Remembering the Kanji (Book)",
 			"url": "https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921",
 			"rating": 1,
-			"description": "Teaches the meaning and writing of Kanji only (but well). Does not teach the readings (how to pronounce).",
+			"description": "A work that teaches only the meaning and writings for Kanji with the intent of rapidly improving the speed at which a learner can identify and glean context from writing. Does not teach the any readings or how to properly pronounce words, which can be considered a drawback (with payoff coming as you learn readings from an alternate source).",
 			"tags": [ "premium", "novice" ]
 		}
 	],
