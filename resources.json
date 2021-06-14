@@ -71,72 +71,65 @@
 			"name": "Anki",
 			"url": "https://apps.ankiweb.net/",
 			"rating": 3,
-			"description": "A commonly used SRS tool where you can create or import a flashcard deck for personal studying.",
+			"description": "The most commonly used SRS tool for self-studying using flashcards that you either create or import. As you study and provide your answers, items will reappear when you closest to forgetting them. I recommend the <a href=\"https://ankiweb.net/shared/info/2141233552\">Core 2000 deck</a> to start with as it also includes sample sentences and audio.",
 			"tags": [ "free", "universal" ]
 		},
 		{
 			"name": "Glenn Sun Vocab Test",
 			"url": "https://glenn-sun.github.io/japanese-vocab-test/",
 			"rating": 2,
-			"description": "A vocabulary exam tool that helps determine your current level of knowlege.",
+			"description": "A two-part vocabulary exam tool that helps determine your current level of knowledge. Simply check vocabulary items that you already know.",
 			"tags": [ "free", "intermediate" ]
 		}
 	],
 	"grammar" : [
 		{
+			"name": "Organic Japanese",
+			"url": "http://learnjapaneseonline.info/",
+			"rating": 3,
+			"description": "Teaches Japanese logical roots and structure of the language, without attempting to (incorrectly) align Romantic language constructs onto it. The delivery of the content may seem strange to some, but the delivery is exceptional and can be suited for new and existining learners.",
+			"tags": [ "free", "novice", "daily" ]
+		},
+		{
 			"name": "BunPro",
 			"url": "https://bunpro.jp/",
 			"rating": 3,
-			"description": "Teaches vocabulary via SRS with paths that follow other guides like Tae Kim and Genki.",
+			"description": "Teaches grammer points via SRS-based questioning with paths that follow other resources like Tae Kim and Genki. I strongly advise that you pair this with another grammar resource as this website does not explain grammatical constructs (though it does provide references to sources that do).",
 			"tags": [ "freemium", "universal", "daily" ]
 		},
 		{
 			"name": "Don's Conjugation Drill",
 			"url": "https://wkdonc.github.io/conjugation/drill.html",
 			"rating": 3,
-			"description": "Practice your ability to conjugate any type of verb or adjective in modern Japanese.",
+			"description": "Verbs in Japanese take many different forms, making it one of the most difficult concepts to nail down. This drilling tool takes 82 of the most common Japanese verbs and allows you to practice converting them from one form to another. It also includes a small section on adjectives as well.",
 			"tags": [ "free", "intermediate" ]
-		},
-		{
-			"name": "Organic Japanese",
-			"url": "http://learnjapaneseonline.info/",
-			"rating": 3,
-			"description": "Teaches logical roots and structure of Japanese in a way that ignores conventional English textbook teaching.",
-			"tags": [ "free", "novice", "daily" ]
 		},
 		{
 			"name": "Tae Kim's Guide to Japanese",
 			"url": "http://www.guidetojapanese.org/learn/grammar",
 			"rating": 2,
-			"description": "Incredible guide, but hard without a foundation in vocab. Recommend only the Grammar guide.",
+			"description": "If you have done your own search for resources, you have likely stumbled on this guide already. A solid resource that emphasises spoken Japanese over the rigidity of textbook learning, but may be difficult to follow for beginners who do not have a foundation in vocabulary. I recommend starting with only the Grammar guide, at least initially.",
 			"tags": [ "free", "intermediate" ]
 		},
 		{
 			"name": "Genki I (2nd ed.) (Textbook)",
 			"url": "https://www.amazon.com/Genki-Integrated-Elementary-Japanese-Workbook/dp/478901441X/",
 			"rating": 2,
-			"description": "The go-to textbook for schools, comes with audio files. No answer key (see next resource).",
+			"description": "The de-facto textbook/workbook chosen by schools to teach Japanese, includes audio files and exercises for listening as well. Note that the book does not include an answer key, but there is a <a href=\"https://sethclydesdale.github.io/genki-study-resources/\">website that provides all of the exercises and answers</a> in a browser format that can be paired with it.",
 			"tags": [ "premium", "novice" ]
-		},
-		{
-			"name": "Genki Study Resources",
-			"url": "https://sethclydesdale.github.io/genki-study-resources/",
-			"rating": 2,
-			"description": "This site hosts all of the Genkin textbook/workbook exercises for you to do in your browser.",
-			"tags": [ "free", "novice" ]
 		},
 		{
 			"name": "Tofugu Verbs Article",
 			"url": "https://www.tofugu.com/japanese/transitive-intransitive-verbs/",
 			"rating": 2,
-			"description": "Deep dive into the use of transitive versus intransitive verbs.",
+			"description": "Provides a deeper dive into the use of transitive and intransitive verbs in Japanese. If you find yourself struggling with when to use が and when to use を, this resource should assist.",
 			"tags": [ "free", "beginner" ]
 		},
 		{
 			"name": "Human Japanese",
-			"url": "https://apps.apple.com/us/app/human-japanese/id304090210",
+			"url": "https://www.humanjapanese.com/",
 			"rating": 1,
-			"description": "A well-rounded book application that teaches kana, vocab, and grammar from square one.",
+			"description": "A book in application form for mobile devices that teaches kana, vocabulary, and grammar from square one.",
 			"tags": [ "premium", "beginner" ]
 		}
 	],
