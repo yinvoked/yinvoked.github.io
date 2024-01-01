@@ -1,0 +1,148 @@
+{
+    "nodes": [
+        {
+            "name": "n0",
+            "item": "miyu",
+            "amount": 5,
+            "multiplier": 1,
+            "xpos": "65.5%",
+            "ypos": "25%"
+        },
+        {
+            "name": "n1",
+            "item": "credit",
+            "amount": 3200000,
+            "multiplier": 1,
+            "xpos": "54%",
+            "ypos": "25%"
+        },
+        {
+            "name": "n2",
+            "item": "orb",
+            "amount": 15,
+            "multiplier": 1440,
+            "xpos": "42.5%",
+            "ypos": "25%"
+        },
+        {
+            "name": "n3",
+            "item": "report",
+            "amount": 22,
+            "multiplier": 2000,
+            "xpos": "31%",
+            "ypos": "25%"
+        },
+        {
+            "name": "n4",
+            "item": "eligma",
+            "amount": 8,
+            "multiplier": 1,
+            "xpos": "20.5%",
+            "ypos": "26%"
+        },
+        {
+            "name": "n5",
+            "item": "miyu",
+            "amount": 7,
+            "multiplier": 1,
+            "xpos": "11.5%",
+            "ypos": "35%"
+        },
+        {
+            "name": "n6",
+            "item": "eligma",
+            "amount": 12,
+            "multiplier": 1,
+            "xpos": "8%",
+            "ypos": "52%"
+        },
+        {
+            "name": "n7",
+            "item": "credit",
+            "amount": 2400000,
+            "multiplier": 1,
+            "xpos": "10.5%",
+            "ypos": "69%"
+        },
+        {
+            "name": "n8",
+            "item": "skip",
+            "amount": 0,
+            "multiplier": 0,
+            "xpos": "19%",
+            "ypos": "80%"
+        },
+        {
+            "name": "n9",
+            "item": "credit",
+            "amount": 1600000,
+            "multiplier": 1,
+            "xpos": "30.2%",
+            "ypos": "82%"
+        },
+        {
+            "name": "n10",
+            "item": "orb",
+            "amount": 12,
+            "multiplier": 1440,
+            "xpos": "42.2%",
+            "ypos": "82%"
+        },
+        {
+            "name": "n11",
+            "item": "report",
+            "amount": 10,
+            "multiplier": 2000,
+            "xpos": "54.4%",
+            "ypos": "82%"
+        },
+        {
+            "name": "n12",
+            "item": "eligma",
+            "amount": 6,
+            "multiplier": 1,
+            "xpos": "66.4%",
+            "ypos": "82%"
+        },
+        {
+            "name": "n13",
+            "item": "miyu",
+            "amount": 4,
+            "multiplier": 4,
+            "xpos": "78%",
+            "ypos": "80%"
+        },
+        {
+            "name": "n14",
+            "item": "ticket",
+            "amount": 1,
+            "multiplier": 1,
+            "xpos": "86.5%",
+            "ypos": "69.5%"
+        },
+        {
+            "name": "n15",
+            "item": "orb",
+            "amount": 10,
+            "multiplier": 1440,
+            "xpos": "89%",
+            "ypos": "52%"
+        },
+        {
+            "name": "n16",
+            "item": "credit",
+            "amount": 2000000,
+            "multiplier": 1,
+            "xpos": "85.5%",
+            "ypos": "35%"
+        },
+        {
+            "name": "n17",
+            "item": "report",
+            "amount": 17,
+            "multiplier": 2000,
+            "xpos": "76.5%",
+            "ypos": "25%"
+        }
+    ]
+}
