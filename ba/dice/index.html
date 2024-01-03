@@ -1,0 +1,272 @@
+<html>
+<head>
+<link rel="icon" href="./img/dice_token.gif" type="image/gif" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<link href="./css/dice.css" rel="stylesheet">
+<title>BA - Dice Reward Tracker</title>
+</head>
+<body onload="initializeRolls()">
+    <div class="bg-image"></div>
+    <div class="content">
+        <div class="row">
+            <div class="col-xl-8 col-xs-12 d-flex flex-wrap align-items-center">
+                <div class="board">
+                    <div id="board-pos" class="board-pos" hidden="true">
+                        <img class="board-token" src="./img/dice_token.gif" />
+                    </div>
+                    <div id="board-pos-prev" class="board-pos-prev" hidden="true">
+                        <img class="board-token-prev" src="./img/dice_token.gif" />
+                    </div>
+                    <img class="board-img" src="./img/rabbit_dice_board.png" />
+                </div>
+            </div>
+            <div class="col-xl-4 col-xs-12">
+                <div class="container p-4 m-2 dice-menu">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center">
+                                Assign Dice Roll:&emsp;<span class="help" data-bs-toggle="modal"
+                                    data-bs-target=".help-modal"
+                                ><i class="bi bi-question-circle"></i></span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(1)">
+                                <i class="bi bi-dice-1"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(2)">
+                                <i class="bi bi-dice-2"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(3)">
+                                <i class="bi bi-dice-3"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(4)">
+                                <i class="bi bi-dice-4"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(5)">
+                                <i class="bi bi-dice-5"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-4 col-xs-6 p-2 text-center">
+                            <button class="btn btn-light btn-dice" onclick="addRoll(6)">
+                                <i class="bi bi-dice-6"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container p-4 m-2 dice-menu">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h5 class="text-center">
+                                Laps Completed: <span id="lapCount">0</span>
+                            </h5>
+                            <p>
+                                <i><span id="lapAverage">0.00</span> rolls per lap, on average</i>
+                            </p>
+                        </div>
+                        <div class="col-xl-8 col-lg-12 col-sm-6 p-2">
+                            <table class="table table-hover">
+                                <tr>
+                                    <th class="text-center" colspan="2">Rewards:</th>
+                                </tr>
+                                <tr data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-custom-class="reward-tooltip" data-bs-custom-class="reward-tooltip"
+                                    data-bs-title="2★ = 30&#013;&#010;3★= 110&#013;&#010;4★ = 210&#013;&#010;5★ = 330&#013;&#010;UE40 = 450&#013;&#010;UE50 = 630"
+                                >
+                                    <td><img class="reward" src="./img/reward_miyu.png" /></td>
+                                    <td id="miyuData" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="reward" src="./img/reward_eligma.png" /></td>
+                                    <td id="eligmaData" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="reward" src="./img/reward_credit.png" /></td>
+                                    <td id="creditData" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr id="reportCalc" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-custom-class="reward-tooltip" data-bs-custom-class="reward-tooltip"
+                                    title="0 XP"
+                                >
+                                    <td><img class="reward" src="./img/reward_report.png" /></td>
+                                    <td id="reportData" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr id="orbCalc" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-custom-class="reward-tooltip" data-bs-custom-class="reward-tooltip"
+                                    title="0 XP"
+                                >
+                                    <td><img class="reward" src="./img/reward_orb.png" /></td>
+                                    <td id="orbData" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="reward" src="./img/reward_ticket.png" /></td>
+                                    <td id="ticketData" class="align-middle text-end">0</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-xl-4 col-lg-12 col-sm-6 p-2">
+                            <table class="table table-hover">
+                                <tr>
+                                    <th class="text-center" colspan="2">Roll Counts:</th>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-1"></i>
+                                        </div></td>
+                                    <td id="count1" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-2"></i>
+                                        </div></td>
+                                    <td id="count2" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-3"></i>
+                                        </div></td>
+                                    <td id="count3" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-4"></i>
+                                        </div></td>
+                                    <td id="count4" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-5"></i>
+                                        </div></td>
+                                    <td id="count5" class="align-middle text-end">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle"><div class="reward">
+                                            <i class="bi bi-dice-6"></i>
+                                        </div></td>
+                                    <td id="count6" class="align-middle text-end">0</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container p-4 m-2 dice-menu">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <button id="positionButton" class="btn btn-light btn-context m-2" type="button"
+                                data-bs-toggle="modal" data-bs-target=".position-modal" disabled="disabled"
+                            >
+                                <i id="positionFlag" class="bi bi-flag"></i> Adjust Start
+                            </button>
+                            <button id="undoButton" class="btn btn-light btn-context m-2" type="button"
+                                onclick="undoRoll()" disabled="disabled"
+                            >
+                                <i class="bi bi-arrow-counterclockwise"></i> Undo
+                            </button>
+                            <button class="btn btn-light btn-context m-2" type="button" data-bs-toggle="modal"
+                                data-bs-target=".export-modal"
+                            >
+                                <i class="bi bi-box-arrow-in-up-right"></i> Data
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade help-modal" aria-labelledby="help-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content data-menu">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="help-modal-label">Help - Dice Tracker</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>🦐 This is a simple utility that I put together to track the rewards earned from the Rabbit
+                        Squad Shrimp event. Input the roll you get in game and the site tracks the rewards you accrue.
+                        That's pretty much it.</p>
+                    <p>🎲 To register a roll, click the dice button(s) that matches what you roll in game. You can
+                        use the number keys and backspace as well if you would prefer.</p>
+                    <p>📜 Your data is stored in your browser only and is not collected for aggregation purposes.
+                        Use the Manage Data button to save your roll data and/or share with friends.</p>
+                    <p>
+                        🖼 Credit to <b>Shimapan</b> (lol) from the Blue Archive wiki for the <a
+                            href="https://bluearchive.wiki/wiki/File:Event_827_Minigame_Dice_Race_Track_Reward.png"
+                        >image of the board</a> that I shamelessly stole. If you see this, please teach me your ways.
+                    </p>
+                    <hr>
+                    <p>
+                        Thank you for visiting. I never make stuff like this figuring no one would care or use it, so
+                        the fact you are reading this means the world to me. If you find a bug or want to request
+                        something, I can be reached on Discord <b>@Yinvoked</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade position-modal" aria-labelledby="position-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content data-menu">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="position-modal-label">Change Start Position</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>For those who have already rolled, you can can use the slider to start tracking rewards from
+                        your current position.</p>
+                    <input type="range" id="positionRange" class="form-range position" oninput="updateSlider()"
+                        onchange="updateSlider()" min="0" max="17" step="1" value="0"
+                    />
+                    <p class="text-center">
+                        <span id="positionValue">Start at the beginning</span><br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade export-modal" aria-labelledby="export-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content data-menu">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="export-modal-label">Data Management</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You can copy the text below to backup your data, or share it with your friends.</p>
+                    <p>If you want to load previously saved data, paste the text that you previously saved into the
+                        box and click 'Load Content'.</p>
+                    <textarea id="roll-data" class="form-control" rows="6"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md text-center">
+                        <button type="button" class="btn btn-light btn-context m-2" onclick="loadRolls()">Load
+                            Content</button>
+                        <button class="btn btn-light btn-context m-2" onclick="clearRolls()">Clear Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="izuna" src="./img/izuna.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script type="text/javascript" src="./js/dice.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>

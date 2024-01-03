@@ -1,0 +1,190 @@
+body, html {
+	height: 100%;
+	background-color: #667a9f;
+	font-family: 'Inter', sans-serif;
+}
+
+.help:hover .bi-question-circle:before {
+	cursor: pointer;
+	content: "\F504";
+}
+
+.bg-image {
+	background-attachment: fixed;
+	background-image: url("../img/bg_dice.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(8px);
+	height: 100%;
+	-webkit-filter: blur(8px);
+}
+
+.board {
+	max-width: 100%;
+	position: relative;
+}
+
+.board-img {
+	max-width: 100%;
+}
+
+.board-pos {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+}
+
+.board-pos-prev {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+
+.board-token {
+	margin-left: -18.75px;
+	margin-top: -18.75px;
+	height: 62.5px;
+	width: 62.5px;
+	animation: float 6s ease-in-out infinite;
+	filter: drop-shadow(0 0 1rem #000000);
+}
+
+.board-token-prev {
+    margin-left: -18.75px;
+    margin-top: -18.75px;
+    height: 62.5px;
+    width: 62.5px;
+    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0 0 2rem #000000);
+    opacity: 50%;
+    filter: grayscale(1);
+}
+
+.content {
+    width: 75%;
+    height: 75%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -60%);
+    z-index: 2;
+}
+
+.btn-dice {
+	font-size: 24px;
+	filter: drop-shadow(0 0 0.3rem #667a9f);
+}
+
+.btn-context {
+	filter: drop-shadow(0 0 0.2rem #667a9f);
+}
+
+.data-menu {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+}
+
+.dice-menu {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	box-shadow: 0 0 0.5rem #667a9f;
+}
+
+.history {
+	height: 75%;
+	overflow: auto;
+}
+
+.reward {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 24px;
+	vertical-align: center;
+}
+
+.reward-small {
+	height: 30px;
+}
+
+.item-increased {
+	font-weight: bold;
+	color: green;
+	text-shadow: 0 0 0.75rem #90ee90;
+}
+
+.item-decreased {
+	font-weight: bold;
+	color: #4f1818;
+	text-shadow: 0 0 0.75rem #e08787;
+}
+
+.reward-tooltip {
+	white-space: pre-wrap;
+	--bs-tooltip-bg: rgba(255, 255, 255, 0.8);
+	--bs-tooltip-color: black;
+	--bs-tooltip-font-size: 18px;
+}
+
+.reward-value {
+    vertical-align: center;
+}
+
+.izuna {
+	position: fixed;
+	height: 100px;
+	right: 0;
+	bottom: -3px;
+}
+
+.izuna:hover {
+	animation: wiggle 0.2s ease-in-out 2;
+}
+
+td {
+	height: 50px;
+	font-size: 18px;
+}
+#positionFlag.bi-flag-fill {
+	color: red;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-15%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+       transform: translateY(0%);
+    }
+    50% {
+       transform: translateY(10%);
+    }
+    100% {
+       transform: translateY(0%);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#c3d3ec),to(#c3d3ec));
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius:10px;
+    background: linear-gradient(to right,#728cb1,#728cb1 1px,#586e93 1px,#586e93);
+}
