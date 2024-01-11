@@ -233,22 +233,22 @@ function updateSlider() {
         var image;
         switch (nodeData.nodes[position].item) {
             case "miyu":
-                image = "./img/reward_miyu.png";
+                image = "./img/dice/reward_miyu.png";
                 break;
             case "eligma":
-                image = "./img/reward_eligma.png";
+                image = "./img/dice/reward_eligma.png";
                 break;
             case "credit":
-                image = "./img/reward_credit.png";
+                image = "./img/dice/reward_credit.png";
                 break;
             case "report":
-                image = "./img/reward_report.png";
+                image = "./img/dice/reward_report.png";
                 break;
             case "orb":
-                image = "./img/reward_orb.png";
+                image = "./img/dice/reward_orb.png";
                 break;
             case "ticket":
-                image = "./img/reward_ticket.png";
+                image = "./img/dice/reward_ticket.png";
                 break;
         }
         document.getElementById("positionFlag").classList.remove("bi-flag");

@@ -1,0 +1,130 @@
+{
+    "timeline": [
+        {
+            "id": 1,
+            "start": "12-26-2023",
+            "end": "01-02-2024",
+            "maintenance": 0,
+            "banner": [
+                {
+                    "name": "S.Miyako",
+                    "image": "./img/unit/placeholder.png"
+                },
+                {
+                    "name": "S.Saki",
+                    "image": "./img/unit/placeholder.png"
+                }
+            ],
+            "content": {
+                "type": "ga",
+                "enemy": "binah",
+                "environment": "urban"
+            }
+        },
+        {
+            "id": 2,
+            "start": "01-02-2024",
+            "end": "01-09-2024",
+            "maintenance": 0,
+            "banner": [
+                {
+                    "name": "S.Miyako",
+                    "image": "./img/unit/placeholder.png"
+                },
+                {
+                    "name": "S.Saki",
+                    "image": "./img/unit/placeholder.png"
+                }
+            ],
+            "content": {
+                "type": "ga",
+                "enemy": "gregorius",
+                "environment": "indoor"
+            }
+        },
+        {
+            "id": 3,
+            "start": "01-09-2024",
+            "end": "01-16-2024",
+            "maintenance": 4,
+            "banner": [
+                {
+                    "name": "S.Hina",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true,
+                    "rerun": true
+                },
+                {
+                    "name": "S.Iori",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true,
+                    "rerun": true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "start": "01-16-2024",
+            "end": "01-23-2024",
+            "maintenance": 0,
+            "banner": [
+                {
+                    "name": "S.Shiroko",
+                    "image": "./img/unit/placeholder.png"
+                },
+                {
+                    "name": "S.Nonomi",
+                    "image": "./img/unit/placeholder.png",
+                    "rerun": true
+                },
+                {
+                    "name": "S.Wakamo",
+                    "image": "./img/unit/placeholder.png",
+                    "rerun": true
+                }
+            ],
+            "content": {
+                "type": "ga",
+                "enemy": "kaiten",
+                "environment": "urban"
+            }
+        },
+        {
+            "id": 5,
+            "start": "01-23-2024",
+            "end": "01-30-2024",
+            "maintenance": 4,
+            "banner": [
+                {
+                    "name": "S.Ui",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true
+                },
+                {
+                    "name": "S.Hinata",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true
+                }
+            ]
+        },
+        
+        {
+            "id": 6,
+            "start": "01-30-2024",
+            "end": "02-01-2024",
+            "maintenance": 0,
+            "banner": [
+                {
+                    "name": "S.Ui",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true
+                },
+                {
+                    "name": "S.Hinata",
+                    "image": "./img/unit/placeholder.png",
+                    "limited": true
+                }
+            ]
+        }
+    ]
+}
