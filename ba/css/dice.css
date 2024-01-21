@@ -11,7 +11,7 @@ body, html {
 
 .bg-image {
 	background-attachment: fixed;
-	background-image: url("../img/bg_dice.jpg");
+	background-image: url("../img/dice/bg_dice.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: blur(8px);
